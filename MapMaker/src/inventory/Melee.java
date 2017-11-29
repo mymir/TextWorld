@@ -7,18 +7,12 @@ package inventory;
  * @author rafaelzingle
  *
  */
-public class Weapon extends Item {
-	
-	private String name;
-	
-	private int damage;
-	
-	private int speed;
+public class Melee extends Weapon {
 
 	/**
 	 * 
 	 */
-	public Weapon() {
+	public Melee() {
 		// TODO Auto-generated constructor stub
 	}
 
